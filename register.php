@@ -1,4 +1,4 @@
-¡<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,7 +42,7 @@
       </div>
      
             
-            <a href="index.php" class="sign-in_apl"">Iniciar Sesion</a>
+            <a href="index.php" class="sign-in_apl">Iniciar Sesion</a>
     
     </form>
 </div>

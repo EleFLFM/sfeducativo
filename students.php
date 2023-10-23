@@ -1,11 +1,4 @@
-<?php
-session_start();
-// require 'connectDB.php';
-$usuario=$_SESSION['usuario'];
-if(!isset($usuario)){
-header("Location: ../login.html");
-}
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -66,9 +59,7 @@ header("Location: ../login.html");
                     </div>
                     <div class="ms-3">
                         <h6 class="mb-0" style="color: black;">
-                            <?php $usuario=strtoupper($usuario);
-                             echo $usuario
-                            ?>
+                            sss
                         </h6>
                         <span>Admin</span>
                     </div>
@@ -149,55 +140,35 @@ header("Location: ../login.html");
                                 </tr>
                             </thead>
                             <tbody>
-                            <?php
-// Conexión a la base de datos
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "roles";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
-
-//con la condicion que no muestre cuando idcargo = 1 (admin)
-$consulta_usuario = "SELECT * FROM usuarios WHERE idcargo <> 1 AND idcargo=2";
-$resultado = $conn->query($consulta_usuario);
-
-if ($resultado) {
-    while ($row = $resultado->fetch_array()) {
-        $documento = $row["documento"];
-        if ($documento == null) {
-            $documento = 1;
-        }
-        $nombre = $row["nombre"];
-        $usuario = $row["usuario"];
-        $id_cargo = $row["idcargo"];
-        if ($id_cargo == 2) {
-            $id_cargo = "Estudiante";
-        } elseif ($id_cargo == 3) {
-            $id_cargo = "Docente";
-        }
-        $id_estado = $row["id_estado"];
-        if ($id_estado == 1) {
-            $id_estado = "ACTIVO";
-        } elseif ($id_estado == 2) {
-            $id_estado = "INACTIVO";
-        }
-        ?>
-        <tr>
-            <td><?php echo $documento ?></td>
-            <td><?php echo $nombre ?></td>
-            <td><?php echo $usuario ?></td>
-            <td><?php echo $id_cargo ?></td>
-            <td><?php echo $id_estado ?></td>
-        </tr>
-    <?php
-    }
-}
-?>
+                           
+            <td>hola</td>
+            <td>hola</td>
+            <td>hola</td>
+            <td>hola</td>
+            <td>hola</td>
+                            </tr>
+    
                             </tbody>
+                            <tbody>
+                           
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                                           </tr>
+                   
+                                           </tbody>
+                                           <tbody>
+                           
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                           <td>hola</td>
+                                           </tr>
+                   
+                                           </tbody>
                         </table>
                     </div>
                 </div>
