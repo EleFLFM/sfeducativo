@@ -11,7 +11,7 @@
     <form class="form_container">
       <div class="logo_container"></div>
       <div class="title_container">
-        <p class="title">INICIAR SESION</p>
+        <p class="title">Registrarse</p>
         <!-- <span class="subtitle">Get started with our app, just create an account and enjoy the experience.</span> -->
       </div>
       <br>
@@ -33,7 +33,7 @@
         <input placeholder="Password" title="Inpit title" name="contraseña" type="password" class="input_field" id="password_field">
       </div>
       <button title="Sign In" type="submit" class="sign-in_btn">
-        <span>ENTRAR</span>
+        <span>Registrarse</span>
       </button>
       <div class="separator">
         <hr class="line">
@@ -42,7 +42,7 @@
       </div>
      
             
-            <a href="register.php" class="sign-in_apl"">Registrarse</a>
+            <a href="index.php" class="sign-in_apl">Iniciar Sesion</a>
     
     </form>
 </div>
