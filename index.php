@@ -32,9 +32,9 @@
         </svg>
         <input placeholder="Password" title="Inpit title" name="contraseña" type="password" class="input_field" id="password_field">
       </div>
-      <button title="Sign In" type="submit" class="sign-in_btn">
+      <a href="dashboard.php"class="sign-in_apl">
         <span>ENTRAR</span>
-      </button>
+      </a href="dashboard.php">
       <div class="separator">
         <hr class="line">
         <span>O</span>
