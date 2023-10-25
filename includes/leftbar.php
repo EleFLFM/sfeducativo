@@ -55,6 +55,7 @@
                     <!-- <li><a href="add-result.php"><i class="fa fa-plus"></i> <span>Agregar Resultado</span></a></li> -->
                     <li><a href="test-students.php"><i class="fa fa-bars"></i> <span>Vista estudiante</span></a></li>
                     <li><a href="test-teachers.php"><i class="fa fa-bars"></i> <span>Vista Docente</span></a></li>
+                    <li><a href="statistics.php"><i class="fa fa-bars"></i> <span>Estadisticas</span></a></li>
 
                 </ul>
             </li>
