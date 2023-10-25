@@ -29,10 +29,12 @@
                     <a href="#"><i class="fa fa-book"></i> <span>Tests</span> <i class="fa fa-angle-right arrow"></i></a>
                     <ul class="child-nav">
                         <li><a href="create-subject.php"><i class="fa fa-plus"></i> <span>Test 1</span></a></li>
+                        <li><a href="add-test.php"><i class="fa fa-plus"></i> <span>Añadir test</span></a></li>
                         <li><a href="manage-subjects.php"><i class="fa fa-bars"></i> <span>Examen</span></a></li>
                         <li><a href="add-subjectcombination.php"><i class="fa fa-plus"></i> <span>Supletorio</span></a></li>
                         <a href="manage-subjectcombination.php"><i class="fa fa-bars"></i> <span>Examen Final</span></a>
                     <li><a href="manage-tests.php"><i class="fa fa-bars"></i> <span>Gestionar Tests</span></a></li>
+                    <li><a href="config-test.php"><i class="fa fa-bars"></i> <span>Configurar Tests</span></a></li>
 
                     </li>
             </ul>
@@ -41,6 +43,8 @@
                 <a href="#"><i class="fa fa-users"></i> <span>Estudiantes</span> <i class="fa fa-angle-right arrow"></i></a>
                 <ul class="child-nav">
                     <li><a href="add-students.php"><i class="fa fa-plus"></i> <span>Agregar Estudiantes</span></a></li>
+                    <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Test</span></a></li>
+
 
                 </ul>
             </li>
