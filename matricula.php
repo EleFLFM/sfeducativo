@@ -56,13 +56,13 @@ if (strlen($_SESSION['alogin']) == "") {
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
   
-  <a href="" class="btn btn-primary">Registrar</a>
+  <!-- <a href="" class="btn btn-primary">Registrar</a> -->
   <!-- <button type="submit" class="btn btn-primary">Registrar</button> -->
+  <button id="mostrarAlerta" class="btn btn-primary">Registrar</button>
 </form>
-<button id="mostrarAlerta" class="btn btn-primary">Mostrar Alerta</button>
     <div id="miAlerta" class="alert alert-success alert-dismissible" style="display: none;">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Éxito:</strong> Tu operación se ha completado con éxito.
+        <strong>Éxito:</strong> Curso Matriculado con exito.
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
