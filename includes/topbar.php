@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ConfiguroWeb | Dashboard</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-
+    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="assets/css/animate-css/animate.min.css" media="screen">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/icheck/skins/line/green.css">
     <link rel="stylesheet" href="assets/css/main.css" media="screen">
     <link rel="stylesheet" href="assets/css/prism/prism.css" media="screen">
-
+    
     <!-- <link rel="stylesheet" type="text/css" href="assets/js/DataTables/datatables.min.css"/> -->
     <script src="assets/js/modernizr/modernizr.min.js"></script>
     <style>

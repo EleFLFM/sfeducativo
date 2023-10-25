@@ -40,6 +40,7 @@
             <li class="has-children">
                 <a href="#"><i class="fa fa-users"></i> <span>Estudiantes</span> <i class="fa fa-angle-right arrow"></i></a>
                 <ul class="child-nav">
+                    <li><a href="matricula.php"><i class="fa fa-bars"></i> <span>Matricular Curso</span></a></li>
                     <li><a href="add-students.php"><i class="fa fa-plus"></i> <span>Agregar Estudiantes</span></a></li>
 
                 </ul>
