@@ -69,23 +69,94 @@ if (strlen($_SESSION['alogin']) == "") {
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
-                                                    <th>Nombre de Estudiante</th>
-                                                    <th>ID Roll</th>
-                                                    <th>Año</th>
-                                                    <th>Fecha de Registro</th>
-                                                    <th>Estado</th>
+                                                    <th>Nombre del Test</th>
+                                                    <th>Tiempo en Minutos</th>
+                                                    <th>Fecha de inicio</th>
+                                                    <th>Fecha Fin</th>
+                                                    <th>Numero de intentos</th>
+                                                    <th>Docente</th>
                                                     <th>Acción</th>
                                                 </tr>
                                             </thead>
+                                            
                                             <tbody>
-                                                <?php $sql = "SELECT tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId";
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Examen 1</td>
+                                                <td>00:30</td>
+                                                <td>2023-10-03</td>
+                                                <td>2023-10-04</td>
+                                                <td>2</td>
+                                                <td>Oscar Sanchez</td>
+                                                <td>
+                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Parcial 2</td>
+                                                <td>00:30</td>
+                                                <td>2023-10-05</td>
+                                                <td>2023-12-06</td>
+                                                <td>1</td>
+                                                <td>Camilo Arango</td>
+                                                <td>
+                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Examen Final</td>
+                                                <td>00:40</td>
+                                                <td>2023-14-10</td>
+                                                <td>2023-14-11</td>
+                                                <td>2</td>
+                                                <td>Yersey Torres</td>
+                                                <td>
+                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Supletorio</td>
+                                                <td>00:50</td>
+                                                <td>2023-12-14</td>
+                                                <td>2023-12-15</td>
+                                                <td>1</td>
+                                                <td>Javier Sajonero</td>
+                                                <td>
+                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Examen 2</td>
+                                                <td>00:50</td>
+                                                <td>2023-12-20</td>
+                                                <td>2023-12-21</td>
+                                                <td>1</td>
+                                                <td>Javier Sajonero</td>
+                                                <td>
+                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+
+                                            
+                                                <?php /* $sql = "SELECT tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId";
                                                 $query = $dbh->prepare($sql);
                                                 $query->execute();
                                                 $results = $query->fetchAll(PDO::FETCH_OBJ);
                                                 $cnt = 1;
                                                 if ($query->rowCount() > 0) {
-                                                    foreach ($results as $result) {   ?>
-                                                        <tr>
+                                                    foreach ($results as $result) {   ?>*/
+                                                       /* <tr>
                                                             <td><?php echo htmlentities($cnt); ?></td>
                                                             <td><?php echo htmlentities($result->StudentName); ?></td>
                                                             <td><?php echo htmlentities($result->RollId); ?></td>
@@ -97,14 +168,17 @@ if (strlen($_SESSION['alogin']) == "") {
                                                                     echo htmlentities('Blocked');
                                                                 }
                                                                 ?></td>
+                                                                <td>
+                                                                    Hola 
+                                                                </td>
                                                             <td>
-                                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-edit" title="Edit Record"></i> </a>
+                                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
 
                                                             </td>
                                                         </tr>
                                                 <?php $cnt = $cnt + 1;
                                                     }
-                                                } ?>
+                                                } */ ?> 
 
 
                                             </tbody>

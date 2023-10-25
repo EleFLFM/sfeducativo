@@ -90,7 +90,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Completa la información del estudiante</h5>
+                                            <h5>test de preguntas tipo selección múltiple única respuesta</h5>
                                         </div>
                                     </div>
                                     <div class="panel-body">
@@ -104,12 +104,12 @@ if (strlen($_SESSION['alogin']) == "") {
                                         <?php } ?>
                                         <form class="row" method="post">
 
-                                            <div class="form-group col-md-6">
-                                                <label for="default" class="control-label">Nombre Completo</label>
-                                                <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off">
+                                            <div class="form-group col-md-12">
+                                                <label for="default" class="control-label">Pregunta</label>
+                                                <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 100px;">
                                             </div>
 
-                                            <div class="form-group col-md-6">
+                                            <!-- <div class="form-group col-md-6">
                                                 <label for="default" class="control-label">ID Rol</label>
                                                 <input type="text" name="rollid" class="form-control" id="rollid" maxlength="5" required="required" autocomplete="off">
 
@@ -119,35 +119,60 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 <label for="default" class="control-label">Correo</label>
 
                                                 <input type="email" name="emailid" class="form-control" id="email" required="required" autocomplete="off">
-                                            </div>
+                                            </div> -->
 
 
-
+<!-- 
                                             <div class="form-group col-md-6">
                                                 <label for="default" class="control-label">Género</label>
                                                 <input type="radio" name="gender" value="Male" required="required" checked=""> Male <input type="radio" name="gender" value="Female" required="required"> Female <input type="radio" name="gender" value="Other" required="required"> Other
 
-                                            </div>
+                                            </div> -->
+                                            <div class="form-group col-md-12">
+                                <!-- multiple opcion una respuestas-->
+                                <div id="multiplechoice" class="questiontype">
+                                                    <label for="default" class="control-label">Seleccione Unica Respuesta</label>
+                                    
+                                                    <div class="checkbox">
+                                                        <input type="radio" value="1" name="respuesta">
+                                                        <label><input type="text" name="obj1" value=""></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <input type="radio" value="2" name="respuesta">
+                                                        <label><input type="text" name="obj2" value=""></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <input type="radio" value="3" name="respuesta">
+                                                        <label><input type="text" name="obj3" value=""></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <input type="radio" value="4" name="respuesta">
+                                                        <label><input type="text" name="obj4" value=""></label>
+                                                    </div>
+                                                </div>
 
 
                                             <div class="form-group col-md-6">
-                                                <label for="default" class="control-label">Año</label>
+                                                <label for="default" class="control-label">Seleccione Respuesta Correcta</label>
                                                 <select name="class" class="form-control" id="default" required="required">
-                                                    <option value="">Seleccionar Año</option>
-                                                    <?php $sql = "SELECT * from tblclasses";
+                                                    <option value="">A</option>
+                                                    <option value="">B</option>
+                                                    <option value="">C</option>
+                                                    <option value="">D</option>
+                                                    <?php /* $sql = "SELECT * from tblclasses";
                                                     $query = $dbh->prepare($sql);
                                                     $query->execute();
                                                     $results = $query->fetchAll(PDO::FETCH_OBJ);
                                                     if ($query->rowCount() > 0) {
                                                         foreach ($results as $result) {   ?>
                                                             <option value="<?php echo htmlentities($result->id); ?>"><?php echo htmlentities($result->ClassName); ?>&nbsp; Section-<?php echo htmlentities($result->Section); ?></option>
-                                                    <?php }
-                                                    } ?>
+                                                    <? php }
+                                                    } */ ?> 
                                                 </select>
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                <label for="date" class=" control-label">Año de Nacimiento</label>
-                                                <input type="date" name="dob" class="form-control" id="date">
+                                            <div class="form-group col-md-12">
+                                                <label for="default" class="control-label">Retroalimentacion</label>
+                                                <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 100px;">
                                             </div>
 
 

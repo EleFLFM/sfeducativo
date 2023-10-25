@@ -69,23 +69,57 @@ if (strlen($_SESSION['alogin']) == "") {
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
-                                                    <th>Nombre de Estudiante</th>
-                                                    <th>ID Roll</th>
-                                                    <th>Año</th>
-                                                    <th>Fecha de Registro</th>
-                                                    <th>Estado</th>
+                                                    <th>Nombre del Test</th>
+                                                    <th>Tiempo en Minutos</th>
+                                                    <th>Fecha de inicio</th>
+                                                    <th>Fecha Fin</th>
+                                                    <th>Cantidad De Estudiantes Registrados</th>
+                                                    <th> Cantidad De Estudiantes Que han realizado el Test  </th>
                                                     <th>Acción</th>
                                                 </tr>
                                             </thead>
+                                            
                                             <tbody>
-                                                <?php $sql = "SELECT tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId";
+
+                                          
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Supletorio</td>
+                                                <td>00:50</td>
+                                                <td>2023-12-14</td>
+                                                <td>2023-12-15</td>
+                                                <td>24</td>
+                                                <td>0</td>
+                                                <td>
+                                                <a href="config-test.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-edit" title="Edit Record"></i> </a>
+                                                </td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Examen 2</td>
+                                                <td>00:50</td>
+                                                <td>2023-12-20</td>
+                                                <td>2023-12-21</td>
+                                                <td>24</td>
+                                                <td>12</td>
+                                                <td>
+                                                
+                                                </td>
+                                            </tr>
+
+
+                                            
+                                                <?php /* $sql = "SELECT tblstudents.StudentName,tblstudents.RollId,tblstudents.RegDate,tblstudents.StudentId,tblstudents.Status,tblclasses.ClassName,tblclasses.Section from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId";
                                                 $query = $dbh->prepare($sql);
                                                 $query->execute();
                                                 $results = $query->fetchAll(PDO::FETCH_OBJ);
                                                 $cnt = 1;
                                                 if ($query->rowCount() > 0) {
-                                                    foreach ($results as $result) {   ?>
-                                                        <tr>
+                                                    foreach ($results as $result) {   ?>*/
+                                                       /* <tr>
                                                             <td><?php echo htmlentities($cnt); ?></td>
                                                             <td><?php echo htmlentities($result->StudentName); ?></td>
                                                             <td><?php echo htmlentities($result->RollId); ?></td>
@@ -97,14 +131,17 @@ if (strlen($_SESSION['alogin']) == "") {
                                                                     echo htmlentities('Blocked');
                                                                 }
                                                                 ?></td>
+                                                                <td>
+                                                                    Hola 
+                                                                </td>
                                                             <td>
-                                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-edit" title="Edit Record"></i> </a>
+                                                                <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-play" title="Edit Record"></i> </a>
 
                                                             </td>
                                                         </tr>
                                                 <?php $cnt = $cnt + 1;
                                                     }
-                                                } ?>
+                                                } */ ?> 
 
 
                                             </tbody>
