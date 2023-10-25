@@ -29,14 +29,15 @@
                     <a href="#"><i class="fa fa-book"></i> <span>Tests</span> <i class="fa fa-angle-right arrow"></i></a>
                     <ul class="child-nav">
                         <li><a href="create-subject.php"><i class="fa fa-plus"></i> <span>Test 1</span></a></li>
-                        <li><a href="add-test.php"><i class="fa fa-plus"></i> <span>Añadir test</span></a></li>
+                        <li><a href="add-test.php"><i class="fa fa-plus"></i> <span>Añadir Pregunta a test</span></a></li>
                         <li><a href="manage-subjects.php"><i class="fa fa-bars"></i> <span>Examen</span></a></li>
                         <li><a href="add-subjectcombination.php"><i class="fa fa-plus"></i> <span>Supletorio</span></a></li>
                         <a href="manage-subjectcombination.php"><i class="fa fa-bars"></i> <span>Examen Final</span></a>
                     <li><a href="manage-tests.php"><i class="fa fa-bars"></i> <span>Gestionar Tests</span></a></li>
-                    <li><a href="config-test.php"><i class="fa fa-bars"></i> <span>Configurar Tests</span></a></li>
+                    <li><a href="config-test.php"><i class="fa fa-bars"></i> <span>Añadir Tests</span></a></li>
 
                     </li>
+                    <li><a href="manage-tests-teacher.php"><i class="fa fa-bars"></i> <span>Tests Profesor</span></a></li>
             </ul>
             </li>
             <li class="has-children">

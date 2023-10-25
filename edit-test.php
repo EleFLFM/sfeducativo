@@ -75,7 +75,7 @@ if (strlen($_SESSION['alogin']) == "") {
                             <ul class="breadcrumb">
                                 <li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
 
-                                <li class="active">Agregar Test</li>
+                                <li class="active">Editar Test</li>
                             </ul>
                         </div>
 
@@ -90,7 +90,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Configuración de la prueba </h5>
+                                            <h5>Editar prueba </h5>
                                         </div>
                                     </div>
                                     <div class="panel-body">
@@ -106,27 +106,27 @@ if (strlen($_SESSION['alogin']) == "") {
 
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Nombre de la prueba</label>
-                                                <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 70px;">
+                                                <input type="text" value="Supletorio" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 70px;">
                                             </div>
 
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Duracion de la prueba en minutos</label>
-                                                <input type="number"  name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
+                                                <input type="text"  value="00:50" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
                                             </div>
 
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Numero de intentos</label>
-                                                <input type="number" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
+                                                <input type="number" value="2" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
                                             </div>
 
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Fecha de inicio</label>
-                                                <input type="date" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
+                                                <input type="date" value="2023-12-14" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
                                             </div>
 
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Fecha Fin</label>
-                                                <input type="date" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
+                                                <input type="date" value="2023-12-15" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" >
                                             </div>
 
 
