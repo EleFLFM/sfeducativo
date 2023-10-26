@@ -52,7 +52,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Ver Información de Estudiante</h5>
+                                            <h5>Ver lista de test</h5>
                                         </div>
                                     </div>
                                     <?php if ($msg) { ?>
