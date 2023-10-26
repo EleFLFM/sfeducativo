@@ -75,7 +75,7 @@ if (strlen($_SESSION['alogin']) == "") {
                             <ul class="breadcrumb">
                                 <li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
 
-                                <li class="active">Editar Test</li>
+                                <li class="active">Agregar Test</li>
                             </ul>
                         </div>
 
@@ -90,7 +90,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Editar prueba </h5>
+                                            <h5>Editar test </h5>
                                         </div>
                                     </div>
                                     <div class="panel-body">

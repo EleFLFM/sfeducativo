@@ -4,7 +4,7 @@
     <div class="sidebar-content">
         <!-- /.user-info -->
 
-        <div class="sidebar-nav">
+        <div class="sidebar-nav" >
             <ul class="side-nav color-gray">
                 <li class="nav-header">
                     <span class="">Panel de Control</span>
@@ -25,7 +25,7 @@
 
                     </ul>
                 </li> -->
-                <li class="has-children">
+                <!-- <li class="has-children">
                     <a href="#"><i class="fa fa-book"></i> <span>Tests</span> <i class="fa fa-angle-right arrow"></i></a>
                     <ul class="child-nav">
                         <li><a href="create-subject.php"><i class="fa fa-plus"></i> <span>Test 1</span></a></li>
@@ -39,13 +39,23 @@
                     </li>
                     <li><a href="manage-tests-teacher.php"><i class="fa fa-bars"></i> <span>Tests Profesor</span></a></li>
             </ul>
-            </li>
+            </li> -->
             <li class="has-children">
                 <a href="#"><i class="fa fa-users"></i> <span>Estudiantes</span> <i class="fa fa-angle-right arrow"></i></a>
                 <ul class="child-nav">
-                    <li><a href="matricula.php"><i class="fa fa-bars"></i> <span>Matricular Curso</span></a></li>
-                    <li><a href="add-students.php"><i class="fa fa-plus"></i> <span>Agregar Estudiantes</span></a></li>
-                    <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Test</span></a></li>
+
+                    <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Realizar Tests</span></a></li>
+
+
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#"><i class="fa fa-user"></i> <span>Docente</span> <i class="fa fa-angle-right arrow"></i></a>
+                <ul class="child-nav">
+                    <li><a href="add-test.php"><i class="fa fa-plus"></i> <span>Agregar Pregunta Test</span></a></li>
+                    <li><a href="config-test.php"><i class="fa fa-plus"></i> <span> Agregar Test</span></a></li>
+                    <li><a href="manage-tests-teacher.php"><i class="fa fa-plus"></i> <span> Lista de test</span></a></li>
+
 
 
                 </ul>

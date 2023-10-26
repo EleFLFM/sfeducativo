@@ -63,7 +63,7 @@ if (strlen($_SESSION['alogin']) == "") {
                 <div class="container-fluid">
                     <div class="row page-title-div">
                         <div class="col-md-6">
-                            <h2 class="title">Agregar Estudiante</h2>
+                            <h2 class="title">Agregar Test</h2>
 
                         </div>
 
@@ -75,7 +75,7 @@ if (strlen($_SESSION['alogin']) == "") {
                             <ul class="breadcrumb">
                                 <li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
 
-                                <li class="active">Agregar Estudiante</li>
+                                <li class="active">Agregar Test</li>
                             </ul>
                         </div>
 
@@ -90,7 +90,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>test de preguntas tipo selección múltiple única respuesta</h5>
+                                            <h5>Asignar pregunta a un test</h5>
                                         </div>
                                     </div>
                                     <div class="panel-body">

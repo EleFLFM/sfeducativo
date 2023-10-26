@@ -34,8 +34,7 @@ include('includes/config.php');
                         <!-- /.row -->
                         <h1><span class="blue">&lt;</span>Resultados<span class="blue">&gt;</span> <span class="yellow">Estudiante</pan>
                         </h1>
-                        <h2><a href="https://www.configuroweb.com/46-aplicaciones-gratuitas-en-php-python-y-javascript/#Aplicaciones-gratuitas-en-PHP,-Python-y-Javascript" target="_blank">Para más desarrollos ConfiguroWeb</a></h2>
-
+                     
                         <!-- /.row -->
                     </div>
                     <!-- /.container-fluid -->
@@ -82,7 +81,7 @@ include('includes/config.php');
 
 
 
-                                                <table class="table table-hover table-bordered" border="1" width="100%">
+                                                <table class="table table-hover table-bordered" borde="1" width="100%">
                                                     <thead>
                                                         <tr style="text-align: center">
                                                             <th style="text-align: center">#</th>
@@ -129,7 +128,7 @@ include('includes/config.php');
                                                                 <td style="text-align: center"><b><?php echo  htmlentities($totlcount * (100) / $outof); ?> %</b></td>
                                                             </tr>
                                                             <tr>
-                                                                <td colspan="3" align="center"><i class="fa fa-print fa-2x" aria-hidden="true" style="cursor:pointer" OnClick="CallPrint(this.value)"></i></td>
+                                                                <td colspan="3" alig="center"><i class="fa fa-print fa-2x" aria-hidden="true" style="cursor:pointer" OnClick="CallPrint(this.value)"></i></td>
                                                             </tr>
 
                                                         <?php } else { ?>

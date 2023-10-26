@@ -90,7 +90,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Configuración de la prueba </h5>
+                                            <h5>Crear un test</h5>
                                         </div>
                                     </div>
                                     <div class="panel-body">
