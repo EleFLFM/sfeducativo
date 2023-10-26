@@ -9,10 +9,10 @@
                 <li class="nav-header">
                     <span class="">Panel de Control</span>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="dashboard.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </a>
 
-                </li>
+                </li> -->
 
                 <li class="nav-header">
                     <span class="">Configuración</span>
@@ -45,6 +45,7 @@
                 <ul class="child-nav">
 
                     <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Realizar Tests</span></a></li>
+                    <li><a href="matricular.php"><i class="fa fa-bars"></i> <span>Matricular Curso</span></a></li>
 
 
                 </ul>
@@ -54,7 +55,8 @@
                 <ul class="child-nav">
                     <li><a href="add-test.php"><i class="fa fa-plus"></i> <span>Agregar Pregunta Test</span></a></li>
                     <li><a href="config-test.php"><i class="fa fa-plus"></i> <span> Agregar Test</span></a></li>
-                    <li><a href="manage-tests-teacher.php"><i class="fa fa-plus"></i> <span> Lista de test</span></a></li>
+                    <li><a href="manage-tests-teacher.php"><i class="fa fa-bars"></i> <span> Lista de test</span></a></li>
+                    <li><a href="dashboard.php"><i class="fa fa-bars"></i> <span> Estudiantes Matriculados</span></a></li>
 
 
 
