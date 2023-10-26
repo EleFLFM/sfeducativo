@@ -104,6 +104,26 @@ if (strlen($_SESSION['alogin']) == "") {
                                         <?php } ?>
                                         <form class="row" method="post">
 
+                                        
+                                        <div class="form-group col-md-6">
+                                                <label for="default" class="control-label">Seleccione Examen</label>
+                                                <select name="class" class="form-control" id="default" required="required">
+                                                    <option value="">Supletorio</option>
+                                                    <option value="">Examen 1</option>
+                                                    <option value="">Examen Final</option>
+                                                    <option value="">Parcial 2</option>
+                                                    <?php /* $sql = "SELECT * from tblclasses";
+                                                    $query = $dbh->prepare($sql);
+                                                    $query->execute();
+                                                    $results = $query->fetchAll(PDO::FETCH_OBJ);
+                                                    if ($query->rowCount() > 0) {
+                                                        foreach ($results as $result) {   ?>
+                                                            <option value="<?php echo htmlentities($result->id); ?>"><?php echo htmlentities($result->ClassName); ?>&nbsp; Section-<?php echo htmlentities($result->Section); ?></option>
+                                                    <? php }
+                                                    } */ ?> 
+                                                </select>
+                                            </div>
+
                                             <div class="form-group col-md-12">
                                                 <label for="default" class="control-label">Pregunta</label>
                                                 <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 100px;">

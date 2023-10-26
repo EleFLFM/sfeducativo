@@ -92,7 +92,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 <td>24</td>
                                                 <td>0</td>
                                                 <td>
-                                                <a href="config-test.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-edit" title="Edit Record"></i> </a>
+                                                <a href="edit-test.php?stid=<?php echo htmlentities($result->StudentId); ?>" class="btn btn-info"><i class="fa fa-edit" title="Edit Record"></i> </a>
                                                 </td>
                                             </tr>
 
@@ -100,13 +100,13 @@ if (strlen($_SESSION['alogin']) == "") {
                                             <tr>
                                                 <td>2</td>
                                                 <td>Examen 2</td>
-                                                <td>00:50</td>
+                                                <td>00:30</td>
                                                 <td>2023-12-20</td>
                                                 <td>2023-12-21</td>
                                                 <td>24</td>
                                                 <td>12</td>
                                                 <td>
-                                                
+                                                <a  class="btn btn-info"><i class="fa fa-close" title="Edit Record"></i> </a>
                                                 </td>
                                             </tr>
 
