@@ -43,6 +43,7 @@
             <li class="has-children">
                 <a href="#"><i class="fa fa-users"></i> <span>Estudiantes</span> <i class="fa fa-angle-right arrow"></i></a>
                 <ul class="child-nav">
+
                     <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Realizar Tests</span></a></li>
 
 
@@ -56,6 +57,7 @@
                     <li><a href="manage-tests-teacher.php"><i class="fa fa-plus"></i> <span> Lista de test</span></a></li>
 
 
+
                 </ul>
             </li>
             <li class="has-children">
@@ -64,6 +66,7 @@
                     <!-- <li><a href="add-result.php"><i class="fa fa-plus"></i> <span>Agregar Resultado</span></a></li> -->
                     <li><a href="test-students.php"><i class="fa fa-bars"></i> <span>Vista estudiante</span></a></li>
                     <li><a href="test-teachers.php"><i class="fa fa-bars"></i> <span>Vista Docente</span></a></li>
+                    <li><a href="statistics.php"><i class="fa fa-bars"></i> <span>Estadisticas</span></a></li>
 
                 </ul>
             </li>

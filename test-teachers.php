@@ -131,9 +131,9 @@ if (strlen($_SESSION['alogin']) == "") {
                                 </tr>
                                 <tr>
                                     <td>Supletorio</td>
-                                    <td>Juan Perez</td>
+                                    <td>Daniel Suarez</td>
                                     <td>1</td>
-                                    <td>2,5</td>
+                                    <td>4,0</td>
                                     
                                     
                                 </tr>
@@ -141,7 +141,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                     <td>Supletorio</td>
                                     <td>Juan Perez</td>
                                     <td>1</td>
-                                    <td>2,5</td>
+                                    <td>No presento</td>
                                     
                                     
                                 </tr>
