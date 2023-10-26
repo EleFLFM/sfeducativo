@@ -48,7 +48,7 @@ if (strlen($_SESSION['alogin']) == "") {
                 <div class="container-fluid">
                     <div class="row page-title-div">
                         <div class="col-md-6">
-                            <h2 class="title">Admisión de Estudiante</h2>
+                            <h2 class="title">Examen Estudiante</h2>
 
                         </div>
 
@@ -60,7 +60,7 @@ if (strlen($_SESSION['alogin']) == "") {
                             <ul class="breadcrumb">
                                 <li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
 
-                                <li class="active">Admisión de Estudiante</li>
+                                <li class="active">Examen Estudiante</li>
                             </ul>
                         </div>
 
@@ -71,21 +71,193 @@ if (strlen($_SESSION['alogin']) == "") {
 
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="panel">
-                                <div class="panel-heading">
-                                    <div class="panel-title">
-                                        <h5>Completa la información del estudiante</h5>
-                                    </div>
-                                </div>
+                            
+                                
+                                <div class="form-group col-md-12">
+    <h5>Cuestionario Examen 1</h5>
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">1. ¿Que es un algoritmo?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta"> Un programa de computadora
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta"> Un conjunto de instrucciones para resolver un problema
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta"> Una pieza de hardware en una computadora.
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">2. ¿Que estudia la ingenieria de sistemas?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta2"> El diseño y desarrollo de sistemas eléctricos
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta2"> La administración y optimización de procesos industriales
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta2">  La planificación y gestión de sistemas complejos 
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">3. ¿Que es un pseudocódigo?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta3"> Un lenguaje de programación de alto nivel
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta3"> Un lenguaje de programación de bajo nivel
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta3"> Un lenguaje intermedio entre el lenguaje humano y maquina
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">4. ¿Que es un lenguaje de programacion?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta4"> Un sistema operativo
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta4"> Un conjunto de reglas gramaticales que permiten a los programadores escribir instruccion
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta4"> Un conjunto de instrucciones que una computadora debe ejecutar
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">5. ¿Cual es el algoritmo natural de 60
+?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta5"> 6
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta5"> 6 / 2
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta5"> 6 * 10
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">6. ¿Que es un sistema compuesto?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta6"> Un sistema que consta de un solo componente
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta6"> Un sistema formado por la interacción de múltiples componentes
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta6"> Un sistema que consta de un solo componente.
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+<div id="multiplechoice" class="questiontype">
+    <label for="default" class="control-label" style="size.text:4px">7. ¿Que es una fuente bibliografica?</label>
+
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="1" name="respuesta7"> Un dispositivo de almacenamiento de datos
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="2" name="respuesta7"> Un libro de ficción
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="radio" value="3" name="respuesta7"> Un recurso utilizado para obtener información
+        </label>
+    </div>
+    <!-- <div class="checkbox">
+        <label>
+            <input type="radio" value="4" name="respuesta"> Respuesta 4
+        </label>
+    </div> -->
+</div>
+
+
+
                                 <div class="panel-body">
-                                    <?php if ($msg) { ?>
-                                        <div class="alert alert-success left-icon-alert" role="alert">
-                                            <strong>Proceso correcto! </strong><?php echo htmlentities($msg); ?>
-                                        </div><?php } else if ($error) { ?>
-                                        <div class="alert alert-danger left-icon-alert" role="alert">
-                                            <strong>Hubo un inconveniete! </strong> <?php echo htmlentities($error); ?>
-                                        </div>
-                                    <?php } ?>
+                                    
+                                        
+                                   
                                     <form class="form-horizontal" method="post">
                                         <?php
 
@@ -189,11 +361,34 @@ if (strlen($_SESSION['alogin']) == "") {
                                         } ?>
 
 
-                                        <div class="form-group">
-                                            <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="submit" name="submit" class="btn btn-primary">Actualizar</button>
-                                            </div>
-                                        </div>
+<div class="container">
+        <div class="row">
+            <div class="col-sm-offset-0 col-sm-10">
+                <button type="button" id="submitBtn" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+        <br><br>
+
+        <div id="successMessage" style="display: none;">
+            <p>¡Envío exitoso! Redireccionando a otra página...</p>
+        </div>
+    </div>
+
+    <script>
+        // Agregar un evento de clic al botón "Enviar"
+        document.getElementById("submitBtn").addEventListener("click",function()  {
+            // Mostrar el mensaje de éxito
+            document.getElementById("successMessage").style.display = "block";
+            document.getElementById("submitBtn").addEventListener("click", function() {
+            alert("Correcto"); // Muestra una alerta con el mensaje "Correcto"
+});
+            // Redirigir a otra página después de un cierto tiempo (por ejemplo, 2 segundos)
+            setTimeout(function() {
+                window.location.href = "answer.php";
+            }, 1000); // 2000 milisegundos = 2 segundos
+        });
+    </script>
+
                                     </form>
 
                                 </div>
