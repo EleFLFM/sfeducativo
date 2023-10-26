@@ -6,9 +6,7 @@
 
         <div class="sidebar-nav" >
             <ul class="side-nav color-gray">
-                <li class="nav-header">
-                    <span class="">Panel de Control</span>
-                </li>
+               
                 <!-- <li>
                     <a href="dashboard.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </a>
 
@@ -45,7 +43,7 @@
                 <ul class="child-nav">
 
                     <li><a href="manage-tests-student.php"><i class="fa fa-plus"></i> <span>Realizar Tests</span></a></li>
-                    <li><a href="matricular.php"><i class="fa fa-bars"></i> <span>Matricular Curso</span></a></li>
+                    <li><a href="matricula.php"><i class="fa fa-bars"></i> <span>Matricular Curso</span></a></li>
 
 
                 </ul>

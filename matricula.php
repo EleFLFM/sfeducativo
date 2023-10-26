@@ -48,12 +48,12 @@ if (strlen($_SESSION['alogin']) == "") {
                     <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">codigo de la materia</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="" aria-describedby="emailHelp">
     <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Clave</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="password" class="form-control" id="">
   </div>
   
   <!-- <a href="" class="btn btn-primary">Registrar</a> -->

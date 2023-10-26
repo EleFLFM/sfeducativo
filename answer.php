@@ -52,7 +52,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <div class="panel-title">
-                                            <h5>Ver Información de Estudiante</h5>
+                                            <h5>Ver Retroalimentacion</h5>
                                         </div>
                                     </div>
                                     <?php if ($msg) { ?>
@@ -75,6 +75,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                     <th>Puntaje Pregunta</th>
                                                     <th>Retroalimentacion</th>
                                                     
+                                                    
                                             </thead>
                                             <tbody>
 
@@ -85,6 +86,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 <td>Un conjunto de instrucciones para resolver un problema</td>
                                                 <td>1</td>
                                                 <td>Se puede entender un algoritmo como una secuencia de pasos finitos bien definidos que resuelven un problema. Por ejemplo, la ejecución de tareas cotidianas tan simples como cepillarse los dientes, lavarse las manos o seguir el manual de instrucciones de armado de un mueble, se pueden ver como un algoritmo.</td>
+                                                
                                             </tr>
 
                                             <tr>
@@ -135,8 +137,12 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 <td>Un recurso utilizado para obtener información</td>
                                                 <td>1</td>
                                                 <td>Una fuente bibliográfica es un recurso documental, generalmente un libro, artículo, informe, o cualquier otro material impreso o digital, que proporciona información o datos relacionados con un tema específico. Las fuentes bibliográficas suelen ser utilizadas en investigaciones, trabajos académicos y proyectos de investigación para respaldar afirmaciones, argumentos o para proporcionar evidencia.</td>
-                                            </tr>
+                                            </tr>   
+                                            <tr>
 
+                                                <td colspan="5">Nota</td>
+                                                <td>5</td>
+                                            </tr>
 
 
                                             

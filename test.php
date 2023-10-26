@@ -27,7 +27,7 @@ if (strlen($_SESSION['alogin']) == "") {
         $query->bindParam(':stid', $stid, PDO::PARAM_STR);
         $query->execute();
 
-        $msg = "Información de Estudiante Actualizada Correctamente";
+        $msg = "Información De La pregunta Agragada Correctamente";
     }
 
 
@@ -370,7 +370,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <br><br>
 
         <div id="successMessage" style="display: none;">
-            <p>¡Envío exitoso! Redireccionando a otra página...</p>
+            <h5>¡Envío exitoso! Redireccionando a otra página...</h5>
         </div>
     </div>
 
@@ -388,7 +388,7 @@ if (strlen($_SESSION['alogin']) == "") {
             }, 1000); // 2000 milisegundos = 2 segundos
         });
     </script>
-
+ <br><br><br><br><br>
                                     </form>
 
                                 </div>
