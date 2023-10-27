@@ -172,7 +172,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                                 </div>
 
 
-                                            <div class="form-group col-md-6">
+                                            <div class=" col-md-6">
                                                 <label for="default" class="control-label">Seleccione Respuesta Correcta</label>
                                                 <select name="class" class="form-control" id="default" required="required">
                                                     <option value="">A</option>
@@ -190,9 +190,14 @@ if (strlen($_SESSION['alogin']) == "") {
                                                     } */ ?> 
                                                 </select>
                                             </div>
+
                                             <div class="form-group col-md-12">
-                                                <label for="default" class="control-label">Retroalimentacion</label>
-                                                <input type="text" name="fullanme" class="form-control" id="fullanme" required="required" autocomplete="off" style="height: 100px;">
+                                                <label for="" class="control-label">Puntaje Pregunta</label>
+                                                <input type="number" name="fullanme" class="form-control" id="" required="required" autocomplete="off" >
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <label for="" class="control-label">Retroalimentacion</label>
+                                                <input type="text" name="fullanme" class="form-control" id="" required="required" autocomplete="off" style="height: 100px;">
                                             </div>
 
 
